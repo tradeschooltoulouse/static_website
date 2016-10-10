@@ -54,9 +54,18 @@ a:focus {
     padding: 10px 0;
     height: auto;
 }
+.half {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-primary {
+    background-color: #8e50a8;
+}
 .navbar-brand img {
-    height: 60px;
+    height: 80px;
     width: auto;
+    margin-top: -15px;
 }
 .navbar-brand { padding: 0px 0px }
 .navbar-nav > li > a {
@@ -71,8 +80,8 @@ a:focus {
 .navbar-default .navbar-nav > li > a.active,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #333;
-    border-bottom: 4px solid #ffcc33;
+    color: #6f7176;
+    border-bottom: 4px solid #985faf;
 }
 .navbar-default .navbar-toggle { border-color: transparent }
 .navbar-default .navbar-toggle:hover,
@@ -103,13 +112,29 @@ a:focus {
 #tf-header .breadcrumb > li a { color: #ffffff }
 /* Home Style */
 #tf-home {
-    background: url(../img/bg/01.jpg);
+    background: url(../img/bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
 }
+
+#tf-home blockquote {
+  text-align: center;
+  border: none;
+}
+
+#tf-home blockquote footer {
+  text-align: right;
+}
+
+#tf-home .content-heading {
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
 #tf-home .overlay {
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
@@ -117,10 +142,11 @@ a:focus {
     background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
-    padding: 20% 0;
+    padding-top: 10%;
+    padding-bottom: 20%;
     background-attachment: fixed;
 }
-#tf-home h1 { color: #ffcc33 }
+#tf-home h1 { color: #ffad33 }
 .content-heading p.lead { margin-bottom: 80px }
 a.goto-btn {
     font-size: 18px;

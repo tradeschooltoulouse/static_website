@@ -62,6 +62,9 @@ a:focus {
 .btn-primary {
     background-color: #8e50a8;
 }
+.btn-primary:hover {
+    background-color: #8e50a8;
+}
 .navbar-brand img {
     height: 80px;
     width: auto;

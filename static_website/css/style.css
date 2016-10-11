@@ -27,13 +27,16 @@ h2 {
 h5 { font-size: 16px }
 p { font-size: 14px }
 a {
-    color: inherit;
+    color: #8e50a8;
     transition: all 0.5s;
 }
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #ffcc33;
+    color: #4e5055;
+}
+figure {
+  margin: 1rem;
 }
 .highlight { color: #ffcc33 }
 .clearfix:after {
@@ -301,7 +304,7 @@ a.goto-btn { margin-right: 30px }
 }
 /* Intro Section */
 #tf-intro {
-    background-color: #e5b112;
+    background-color: #76d1b4;
     padding: 5% 0;
     color: #ffffff;
     text-align: center;
@@ -314,6 +317,12 @@ a.goto-btn { margin-right: 30px }
 #tf-services { padding: 60px 0 }
 .section-header {
     padding: 40px 0;
+    text-align: center;
+}
+#tf-text {
+    background-color: #b7c846;
+    padding: 5% 0;
+    color: #ffffff;
     text-align: center;
 }
 .section-header h2 { text-transform: uppercase }
@@ -388,7 +397,7 @@ h4.media-heading {
 }
 /* About Us */
 #tf-about { padding: 40px 0 }
-.gray-bg { background-color: #f3f3f3 }
+.yellow-bg { background-color: #ffad33 }
 .img-wrap .profile-img {
     position: relative;
     margin-bottom: 40px;
@@ -505,7 +514,10 @@ ul.social li a.fa:hover { background-color: #333333 }
 }
 .count-box.last { border-right: 1px solid #d3d3d3 }
 /* Portfolio / Works Sections */
-#tf-team { padding: 60px 0 }
+#tf-team {
+    padding: 60px 0;
+    background-color: #ffff;
+}
 #team .item {
     padding: 30px 0px;
     margin: 5px 20px;

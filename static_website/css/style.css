@@ -50,6 +50,19 @@ figure {
 .clearfix { display: inline-block }
 * html .clearfix { height: 1% }
 .clearfix { display: block }
+
+img.logo {
+  max-height: 100px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+img.picto {
+  max-height: 150px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
 /* Navigation */
 #tf-menu {
     margin-bottom: 0;
@@ -576,6 +589,7 @@ ul.social li a.fa:hover { background-color: #333333 }
 .nav.nav-pills > li > a {
     position: relative;
     display: block;
+    color: #6f7176;
     background-color: #ffffff;
     padding: 25px;
     border-bottom: 3px solid #cccccc;

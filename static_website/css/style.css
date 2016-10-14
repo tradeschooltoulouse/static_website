@@ -131,7 +131,7 @@ img.picto {
 #tf-header .breadcrumb > li a { color: #ffffff }
 /* Home Style */
 #tf-home {
-    background: url(../img/bg.jpg);
+    background: url(../img/image_accueil_site_tst-small.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

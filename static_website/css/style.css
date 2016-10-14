@@ -38,6 +38,9 @@ a:focus {
 figure {
   margin: 1rem;
 }
+q {
+  font-style: italic;
+}
 .highlight { color: #ffcc33 }
 .clearfix:after {
     visibility: hidden;

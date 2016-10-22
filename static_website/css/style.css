@@ -313,8 +313,8 @@ a.goto-btn { margin-right: 30px }
     text-align: center;
 }
 /* Intro Section */
-#tst-intro {
-    background-color: #76d1b4;
+.landing-page {
+    background-color: #996a99;
     padding: 5% 0;
     color: #ffffff;
     text-align: center;

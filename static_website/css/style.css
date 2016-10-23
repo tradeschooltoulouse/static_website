@@ -100,6 +100,10 @@ img.picto {
     background-color: #996a99;
     border-color: #996a99;
 }
+.btn-primary:focus {
+    background-color: #996a99;
+    border-color: #996a99;
+}
 .navbar-brand img {
     height: 80px;
     width: auto;

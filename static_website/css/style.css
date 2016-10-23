@@ -159,6 +159,7 @@ img.picto {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 #tst-home blockquote {

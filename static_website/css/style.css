@@ -67,7 +67,7 @@ img.logo {
 }
 
 img.footer-logo {
-  max-height: 12px;
+  max-height: 14px;
 }
 
 img.picto {
@@ -1063,7 +1063,8 @@ p.help-block.text-danger ul li {
 
 /* Footer */
 #tst-footer {
-    padding: 3% 0 2% 0;
+    padding-top: 3%;
+    padding-bottom: 0;
     background-color: #aecc25;
     color: #ffffff;
     font-size: 10px;
@@ -1081,7 +1082,7 @@ p.help-block.text-danger ul li {
     content: "\2192 \0020";
 }
 ul.social li a i {
-    font-size: 10px;
+    font-size: 14px;
     background: transparent;
     width: 32px;
     height: 32px;

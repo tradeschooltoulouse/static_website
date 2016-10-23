@@ -66,6 +66,10 @@ img.logo {
   margin-bottom: 8px;
 }
 
+img.footer-logo {
+  max-height: 12px;
+}
+
 img.picto {
   max-height: 150px;
   margin-top: 4px;

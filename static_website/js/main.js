@@ -8,8 +8,25 @@ function main() {
 
 (function () {
    'use strict';
-
-    
+ 	// Back to top icon
+    //==========================================
+    jQuery(document).ready(function() {
+		var offset = 600;
+		var duration = 300;
+        var visibleClass = "visible";
+		jQuery(window).scroll(function() {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery('.go-top').addClass(visibleClass);
+			} else {
+				jQuery('.go-top').removeClass(visibleClass);
+			}
+		});
+		jQuery('.go-top').click(function(event) {
+			event.preventDefault();
+			jQuery('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		})
+	});
  	// Smooth Scrolling
     //==========================================
     $(function() {

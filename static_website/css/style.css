@@ -1022,6 +1022,30 @@ p.help-block.text-danger ul li {
     border-color: #FFCC33;
     margin-bottom: 10px;
 }
+/* Back to top icon */
+
+.go-top {
+  position: fixed;
+  right: 20px;
+  bottom: -45px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  line-height: 35px;
+  color: #ffffff;
+  background-color: #ffcc33;
+  text-align: center;
+  cursor: pointer;
+  visibility: hidden;
+  border-radius: 3px;
+}
+
+.go-top.visible {
+  visibility: visible;
+  bottom: 11px;
+}
+
 /* Footer */
 #tst-footer {
     padding: 3% 0 2% 0;

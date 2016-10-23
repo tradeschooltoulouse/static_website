@@ -67,7 +67,7 @@ img.logo {
 }
 
 img.footer-logo {
-  max-height: 14px;
+  max-height: 22px;
 }
 
 img.picto {
@@ -1080,13 +1080,13 @@ p.help-block.text-danger ul li {
     padding-bottom: 0;
     background-color: #aecc25;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 12px;
 }
 #tst-footer a {
     color: #ffffff;
 }
 #tst-footer p {
-    font-size: 10px;
+    font-size: 12px;
 }
 #tst-footer ul#foot-nav {
   list-style: none;
@@ -1095,7 +1095,7 @@ p.help-block.text-danger ul li {
     content: "\2192 \0020";
 }
 ul.social li a i {
-    font-size: 14px;
+    font-size: 22px;
     background: transparent;
     width: 32px;
     height: 32px;

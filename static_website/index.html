@@ -1024,7 +1024,77 @@
             <h1>Nous contacter</h1>
           </div>
         </div><!-- end row -->
-     </div><!-- end container -->
+      </div><!-- end container -->
+    </section>
+    <section id="tst-contact-form">
+      <div class="container"><!-- container -->
+          <div class="row"> <!-- outer row -->
+              <div class="col-md-10 col-md-offset-1"> <!-- col 10 with offset 1 to centered -->
+                  <div class="row"> <!-- nested row -->
+                      <div class="col-md-3">
+                          <div class="contact-detail">
+                            <a href="https://www.facebook.com/tradeschooltoulouse/" target="_blank">
+                              <i class="fa fa-facebook-official">&nbsp;</i>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="contact-detail">
+                            <a href="https://www.instagram.com/tradeschooltoulouse/" target="_blank">
+                              <i class="fa fa-instagram">&nbsp;</i>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="contact-detail">
+                            <a href="https://plus.google.com/u/0/+TradeSchoolToulouse" target="_blank">
+                              <i class="fa fa-google-plus">&nbsp;</i>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="contact-detail">
+                            <a href="https://twitter.com/TradeSchool_Tls">
+                              <i class="fa fa-twitter">&nbsp;</i>
+                            </a>
+                          </div>
+                      </div>
+                  </div> <!-- end nested row -->
+              </div> <!-- end col 10 with offset 1 to centered -->
+          </div><!-- end outer row -->
+          <div class="row text-center"> <!-- contact form outer row with centered text-->
+              <div class="col-md-10 col-md-offset-1"> <!-- col 10 with offset 1 to centered -->
+                  <form id="contact-form" class="form" name="contact-form" novalidate>
+                      <div class="row"> <!-- nested inner row -->
+                          <div class="col-md-4">
+                              <div class="form-group">
+                                  <input type="text" autocomplete="off" class="form-control" placeholder="Votre nom" id="name" required data-validation-required-message="Veuillez entrer votre nom">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="form-group">
+                                  <input type="text" autocomplete="off" class="form-control" placeholder="Votre ville" id="city" data-validation-required-message="Vueillez entrer votre ville">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="form-group">
+                                  <input type="email" autocomplete="off" class="form-control" placeholder="Votre courriel" id="email" required data-validation-required-message="Veuillez entrer votre adresse de courrier électronique">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <textarea class="form-control" rows="7" placeholder="Votre texte..." id="message" required data-validation-required-message="Veuillez entrer votre message"></textarea>
+                          <p class="help-block text-danger"></p>
+                          <div id="success"></div>
+                      </div>
+                      <button type="submit" class="btn btn-primary tf-btn color">Envoyer</button>
+                  </form><!-- end form wrapper -->
+              </div><!-- end col 10 with offset 1 to centered -->
+          </div> <!-- end contact form outer row with centered text-->
+      </div><!-- end container -->
     </section><!-- Service Section
     ================================================== -->
   </main>

@@ -709,6 +709,19 @@ ul.cat li a.active {
     transform: translateX(0%)  translateY(0%);
     opacity: 1;
 }
+
+#tst-testimonies blockquote {
+  border: none;
+}
+
+#tst-testimonies blockquote q {
+  font-style: normal;
+}
+
+#tst-testimonies blockquote footer {
+  font-style: italic;
+}
+
 /* Style 2 - Not Fullwidth */
 #itemsWorkThree .box,
 #itemsWorkTwo .box { margin-bottom: 30px }

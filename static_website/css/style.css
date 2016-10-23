@@ -1108,9 +1108,6 @@ ul.social li a i {
     height: 32px;
     padding: 7px 0;
     text-align: center;
-    border-radius: 50%;
-    border-top-left-radius: 0;
-    border: 1px solid transparent;
     color: #ffffff;
     transition: all 0.5s;
 }

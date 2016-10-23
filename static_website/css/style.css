@@ -29,7 +29,7 @@ h1 {
 }
 h1 small { text-transform: lowercase }
 h2 {
-    line-height: 24px;
+    line-height: 32px;
     font-weight: 700;
 }
 a {
@@ -439,8 +439,8 @@ h4.media-heading {
     bottom: -10px;
     left: 50px;
 }
-.about-right-content { padding: 40px 0 }
-.about-left-content { padding-bottom: 60px }
+.about-right-content { padding: 0 }
+.about-left-content { padding-bottom: 0 }
 .about-left-content h2,
 .about-left-content h2 small { color: #333 }
 .about-left-content h2 small { font-weight: 300 }

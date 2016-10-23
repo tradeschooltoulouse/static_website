@@ -93,7 +93,12 @@ img.picto {
     border-color: #996a99;
 }
 .btn-primary:hover {
-    background-color: #8e50a8;
+    background-color: #996a99;
+    border-color: #996a99;
+}
+.btn-primary:active {
+    background-color: #996a99;
+    border-color: #996a99;
 }
 .navbar-brand img {
     height: 80px;

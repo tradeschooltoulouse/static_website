@@ -144,17 +144,22 @@ img.picto {
     background: url(../img/image_accueil_site_tst-small.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #cfcfcf;
 }
 
 #tst-home blockquote {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 16px;
   text-align: center;
+  color: #505050;
   border: none;
 }
 
 #tst-home blockquote footer {
+  font-weight: normal;
+  font-size: 12px;
   text-align: right;
 }
 
@@ -163,9 +168,14 @@ img.picto {
   border-radius: 20px;
 }
 
+#home-button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 #tst-home .overlay {
-    padding-top: 10%;
-    padding-bottom: 20%;
+    padding-top: 15%;
+    padding-bottom: 5%;
     background-attachment: fixed;
 }
 #tst-home h1 { color: #ffad33 }

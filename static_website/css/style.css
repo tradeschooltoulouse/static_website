@@ -163,7 +163,7 @@ img.footer-logo {
 /* Home Style */
 #tst-home {
     background: url(../img/image_accueil_site_tst-small.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;

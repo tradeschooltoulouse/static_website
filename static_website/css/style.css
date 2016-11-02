@@ -1131,7 +1131,31 @@ ul.social li a i {
     color: #ffffff;
     transition: all 0.5s;
 }
+
 ul.social li a i:hover { border-color: #ffffff }
+
+/* FAQ */
+
+#FAQ h3 {
+  text-align: center;
+}
+
+#FAQ h4 {
+  text-align: center;
+}
+
+#FAQ p {
+  margin: 0;
+  margin-bottom: 2px;
+  text-align: justify;
+}
+
+#FAQ .faq-q p {
+  font-weight: bold;
+  margin: 0;
+  margin-top: 10px;
+}
+
 /* Blog Page */
 .blog .media.post {
     background: #fff;

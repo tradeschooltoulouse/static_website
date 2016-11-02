@@ -890,13 +890,8 @@ ul.cat li a.active {
     height: 90px;
     transition: background-color 0.5s;
 }
-#tst-process .gray-bg { position: relative }
-.gray-bg .vline {
-    position: absolute;
-    height: 100%;
-    padding: 5px;
-    border-left: 3px solid #ffffff;
-    left: 20%;
+.gray-bg {
+    background-color: #eeeeee;
 }
 #process { padding: 60px 0 20px 0 }
 .process { margin-bottom: 40px }

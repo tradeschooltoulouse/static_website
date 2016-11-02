@@ -134,11 +134,17 @@ img.footer-logo {
     color: #6f7176;
     border-bottom: 4px solid #985faf;
 }
-.navbar-default .navbar-toggle { border-color: transparent }
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  text-align: center;
+}
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: transparent }
 .navbar-default .navbar-toggle:hover>.navbar-default .navbar-toggle .icon-bar,
 .navbar-default .navbar-toggle:focus>.navbar-default .navbar-toggle .icon-bar { color: #FFCC33 }
+.navbar-default .navbar-toggle i.fa {
+    font-size: 25px;
+}
 /* Header Page */
 #tst-header {
     padding: 20px 0;

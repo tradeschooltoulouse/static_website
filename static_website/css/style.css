@@ -1156,6 +1156,11 @@ ul.social li a i:hover { border-color: #ffffff }
   margin-top: 10px;
 }
 
+#FAQ .modal-footer {
+  padding: 15px;
+  padding-right: 40px;
+}
+
 /* Blog Page */
 .blog .media.post {
     background: #fff;

@@ -70,6 +70,22 @@ img.footer-logo {
   max-height: 26px;
 }
 
+#values {
+  min-height: 400px;
+}
+
+#values .img-wrapper {
+  position: absolute;
+  right:0;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+#values .img-wrapper img {
+  max-height: 300px;
+}
+
 .video-container {
     position: relative;
     width: 100%;

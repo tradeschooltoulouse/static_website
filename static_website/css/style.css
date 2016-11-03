@@ -418,14 +418,14 @@ a.goto-btn { margin-right: 30px }
 .service { margin-bottom: 20px }
 .service i.fa {
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     color: #ffcc23;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     transition: color 0.5s;
 }
 .service .media-left i.fa {
-    margin: 0 10px;
+    margin: 0;
     margin-left: 20px;
 }
 .service img.avatar-service {

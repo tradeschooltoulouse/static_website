@@ -417,17 +417,11 @@ a.goto-btn { margin-right: 30px }
 .service { margin-bottom: 20px }
 .service i.fa {
     text-align: center;
-    font-size: 30px;
-    background-color: #FFCC33;
-    color: #ffffff;
-    padding: 25px 0;
-    border-radius: 50px;
-    border-top-left-radius: 0;
-    margin: 0 10px;
-    margin-right: 20px;
-    width: 82px;
+    font-size: 80px;
+    color: #ffcc23;
+    width: 80px;
     height: 80px;
-    transition: background-color 0.5s;
+    transition: color 0.5s;
 }
 .service .media-left i.fa {
     margin: 0 10px;
@@ -444,7 +438,7 @@ a.goto-btn { margin-right: 30px }
     margin-left: 20px;
 }
 .process:hover i.fa,
-.service:hover i.fa { background-color: #333333 }
+.service:hover i.fa { color: #333333 }
 h4.media-heading {
     margin-top: 0;
     margin-bottom: 5px;

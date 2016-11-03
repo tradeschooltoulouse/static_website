@@ -515,10 +515,6 @@ ul.social li a.fa:hover { background-color: #333333 }
     margin-bottom: 5px;
 }
 /* Counter */
-#tst-counter {
-    border-top: 1px solid #D1D1D1;
-    border-bottom: 1px solid #D1D1D1;
-}
 .facts { padding: 0 }
 .facts .count-box { position: relative }
 .count-box {

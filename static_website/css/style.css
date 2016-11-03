@@ -996,6 +996,12 @@ ul.metas li a { color: #e5b112 }
     border-radius: 3px;
     padding: 2px;
 }
+/* Support us */
+#support-us-details img {
+  float: right;
+  max-width: 150px;
+  margin-left: 10px;
+}
 /* Contact Section */
 /*********************************
 /* Map Section

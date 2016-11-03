@@ -32,6 +32,9 @@ a {
     color: #ffcc33;
     transition: all 0.5s;
 }
+.btn a {
+  color: #ffffff;
+}
 a:hover,
 a:focus {
     text-decoration: none;
@@ -98,20 +101,20 @@ img.footer-logo {
   margin-right: auto;
 }
 .btn-primary {
-    background-color: #996a99;
-    border-color: #996a99;
+    background-color: #ffcc33;
+    border-color: #ffcc33;
 }
 .btn-primary:hover {
-    background-color: #996a99;
-    border-color: #996a99;
+    background-color: #ffcc33;
+    border-color: #000000;
 }
 .btn-primary:active {
-    background-color: #996a99;
-    border-color: #996a99;
+    background-color: #ffcc33;
+    border-color: #000000;
 }
 .btn-primary:focus {
-    background-color: #996a99;
-    border-color: #996a99;
+    background-color: #ffcc33;
+    border-color: #ffcc33;
 }
 .navbar-brand img {
     height: 80px;

@@ -8,6 +8,13 @@ function main() {
 
 (function () {
    'use strict';
+ 	// Toggle menu when cliked
+    //==========================================
+   $('.navbar-collapse a').click(function (e) {
+       if($('.navbar-toggle').css('display') == 'block' && !$(this).siblings().length){
+           $('.navbar-collapse').collapse('toggle');
+       }
+   });
  	// Back to top icon
     //==========================================
     jQuery(document).ready(function() {

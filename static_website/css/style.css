@@ -1108,7 +1108,7 @@ p.help-block.text-danger ul li {
 }
 #tst-footer ul#foot-nav {
   list-style: none;
-  padding-left: 40%;
+  padding: 0;
 }
 #tst-footer ul#foot-nav li:before {
     content: "\2192 \0020";

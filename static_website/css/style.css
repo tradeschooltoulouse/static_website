@@ -570,6 +570,14 @@ ul.social li a.fa:hover { background-color: #333333 }
     -ms-transform: translateX(0px) translateY(0%);
     -o-transform: translateX(0px) translateY(0%);
 }
+
+#tst-workshop-categories .count-box {
+  min-height: 180px;
+  padding: 25px 0;
+}
+.count-box p {
+  color: #000000;
+}
 /*.count-box .hover-bg{
   position: absolute;
   display: block;

@@ -92,12 +92,12 @@ function main() {
     }).triggerHandler('scroll');
 
     /*====================================
-    Portfolio Carousel 
+    Portfolio Carousel
     ======================================*/
   	$(document).ready(function() {
-  	  var owl = $("#team");
+  	  var owl = $("#owl-example");
   	  owl.owlCarousel({
-  	     
+
   	      itemsCustom : [
   	        [0, 1],
   	        [450, 1],
@@ -109,7 +109,7 @@ function main() {
   	      navigation : false,
   	      pagination: true,
   	  });
-  	 
+
   	});
 
     /*====================================
@@ -143,39 +143,35 @@ function main() {
     });
 
     /*====================================
-    Nivo Lightbox 
+    Nivo Lightbox
     ======================================*/
     // Agency Portfolio Popup
-    $('#itemsWork a , #itemsWorkTwo a , #itemsWorkThree a , #popup a').nivoLightbox({
-            effect: 'slideDown',  
-            keyboardNav: true,                            
+    $('#tst-workshop-categories a').nivoLightbox({
+            effect: 'slideDown',
+            keyboardNav: true,
         });
 
     $(document).ready(function() {
- 
-  $("#owl-demo").owlCarousel({
- 
-      navigation : false, // Show next and prev buttons
+
+  $("#carousel-art-culture, #carousel-savoir-theorique, #carousel-gestion, #carousel-dev-personnel, #carousel-sport, #carousel-informatique, #carousel-environnement, #carousel-diy").owlCarousel({
+
+      navigation : true, // Show next and prev buttons
+      navigationText: [
+          "<i class='fa fa-chevron-left'></i>",
+          "<i class='fa fa-chevron-right'></i>"
+      ],
       slideSpeed : 300,
-      paginationSpeed : 400,
+      pagination: false,
       singleItem:true
- 
+
       // "singleItem:true" is a shortcut for:
-      // items : 1, 
+      // items : 1,
       // itemsDesktop : false,
       // itemsDesktopSmall : false,
       // itemsTablet: false,
       // itemsMobile : false
- 
   });
- 
 });
-
- 
-
-
 }());
-
-
 }
 main();

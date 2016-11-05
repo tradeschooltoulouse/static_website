@@ -184,6 +184,31 @@ img.footer-logo {
     content: "/\00a0";
 }
 #tst-header .breadcrumb > li a { color: #ffffff }
+/* Photo carousel */
+.owl-carousel {
+  position: relative;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  line-height: 35px;
+  color: #ffffff;
+  background-color: #ffcc33;
+  background: rgba(255, 204, 51, 0.29);
+  text-align: center;
+  border-radius: 3px;
+  top: 50%;
+  margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+}
+.owl-prev {
+  left: 0;
+}
+.owl-next {
+  right: 0;
+}
 /* Home Style */
 #tst-home {
     background: url(../img/image_accueil_site_tst-small.png);

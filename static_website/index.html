@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="css/nivo-lightbox.css">
   <link rel="stylesheet" href="css/nivo_lightbox_themes/default/default.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
   <!-- Custom stylesheets -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -265,6 +266,15 @@
         </div><!-- end row -->
       </div><!-- end container-fluid -->
     </section>
+    <a href="img/portfolio/ArtCulture/atelier1.jpg" data-lightbox-gallery="art_culture">
+        <img src="image1_thumb.jpg" alt="" />
+    </a>
+    <a href="image2_large.jpg" data-lightbox-gallery="gallery1">
+        <img src="image2_thumb.jpg" alt="" />
+    </a>
+    <a href="image3_large.jpg" data-lightbox-gallery="gallery1">
+        <img src="image3_thumb.jpg" alt="" />
+    </a>
     <!-- Workshop categories section -->
     <section id="tst-workshop-categories">
       <div class="container">
@@ -276,62 +286,350 @@
         <div class="row text-center">
           <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding brand others">
             <div class="box">
-              <img src="img/picto_savoir_theorique.png"
-                   class="img-responsive center-block"
-                   alt="Pictogramme savoirs théoriques">
+              <a href="#" data-toggle="modal" data-target="#modal-carousel-savoir-theorique">
+                <img src="img/picto_savoir_theorique.png"
+                     class="img-responsive center-block"
+                     alt="Pictogramme savoirs théoriques">
+              </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 nopadding app">
             <div class="box">
-              <img src="img/picto_gestion.png"
-                   class="img-responsive center-block"
-                   alt="Pictogramme gestion de projet">
+              <a href="#" data-toggle="modal" data-target="#modal-carousel-gestion">
+                <img src="img/picto_gestion.png"
+                     class="img-responsive center-block"
+                     alt="Pictogramme gestion de projet">
+              </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 nopadding app">
             <div class="box">
-              <img src="img/picto_dev_personnel.png"
-                   class="img-responsive center-block"
-                   alt="Pictogramme développement personnel">
+              <a href="#" data-toggle="modal" data-target="#modal-carousel-dev-personnel">
+                <img src="img/picto_dev_personnel.png"
+                     class="img-responsive center-block"
+                     alt="Pictogramme développement personnel">
+              </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 nopadding web others">
             <div class="box">
+              <a href="#" data-toggle="modal" data-target="#modal-carousel-sport">
               <img src="img/picto_sport.png"
                    class="img-responsive center-block"
                    alt="Pictogramme sport et bien-être">
+              </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding others brand">
             <div class="box">
+              <a href="#" data-toggle="modal" data-target="#modal-carousel-informatique">
               <img src="img/picto_informatique.png"
                    class="img-responsive center-block"
                    alt="Pictogramme informatique et numérique">
+              </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 nopadding web brand">
             <div class="box">
+              <a href="#" data-toggle="modal" data-target="#modal-carousel-environnement">
               <img src="img/picto_environnement.png"
                    class="img-responsive center-block"
                    alt="Pictogramme environnement et développement durable">
+              </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding others web">
             <div class="box">
-              <img src="img/picto_art_culture.png"
-                   class="img-responsive center-block"
-                   alt="Pictogramme art et culture">
+              <a href="#" data-toggle="modal" data-target="#modal-carousel-art-culture">
+                <img src="img/picto_art_culture.png"
+                     class="img-responsive center-block"
+                     alt="Pictogramme art et culture">
+              </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding apps">
             <div class="box">
-              <img src="img/picto_diy.png" class="img-responsive center-block"
-                                           alt="Pictogramme DIY">
+              <a href="#" data-toggle="modal" data-target="#modal-carousel-diy">
+                <img src="img/picto_diy.png" class="img-responsive center-block"
+                                             alt="Pictogramme DIY">
+              </a>
             </div>
           </div>
         </div><!-- End Row -->
       </div><!-- End Container-Fluid -->
     </section>
+    <div class="modal fade" id="modal-carousel-savoir-theorique" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button"
+            class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h3>Savoir théorique</h3>
+          <div class="modal-body">
+            <div id="carousel-savoir-theorique" class="owl-carousel">
+              <div>
+                <img src="img/portfolio/savoir-theorique/atelier29.jpg"
+                     class="img-responsive center-block" alt="Photo 29">
+              </div>
+              <div>
+                <img src="img/portfolio/savoir-theorique/atelier30.jpg" alt="Photo 30">
+              </div>
+              <div>
+                <img src="img/portfolio/savoir-theorique/atelier31.jpg" alt="Photo 31">
+              </div>
+              <div>
+                <img src="img/portfolio/savoir-theorique/atelier32.jpg" alt="Photo 32">
+              </div>
+            </div>
+          </div> <!-- end modal-body -->
+          <div class="modal-footer">
+            <div class="text-center">
+              <button type="button"
+                      class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div> <!-- end modal-content -->
+      </div> <!-- end modal-dialog -->
+    </div> <!-- end modal -->
+    <div class="modal fade" id="modal-carousel-gestion" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button"
+            class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h3>Gestion de projet</h3>
+          <div class="modal-body">
+            <div id="carousel-gestion" class="owl-carousel">
+              <div>
+                <img src="img/portfolio/gestion/atelier17.jpg"
+                     class="img-responsive center-block" alt="Photo 17">
+              </div>
+              <div>
+                <img src="img/portfolio/gestion/atelier18.jpg" alt="Photo 18">
+              </div>
+              <div>
+                <img src="img/portfolio/gestion/atelier19.jpg" alt="Photo 19">
+              </div>
+              <div>
+                <img src="img/portfolio/gestion/atelier20.jpg" alt="Photo 20">
+              </div>
+            </div>
+          </div> <!-- end modal-body -->
+          <div class="modal-footer">
+            <div class="text-center">
+              <button type="button"
+                      class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div> <!-- end modal-content -->
+      </div> <!-- end modal-dialog -->
+    </div> <!-- end modal -->
+    <div class="modal fade" id="modal-carousel-dev-personnel" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button"
+            class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h3>Développement personnel</h3>
+          <div class="modal-body">
+            <div id="carousel-dev-personnel" class="owl-carousel">
+              <div>
+                <img src="img/portfolio/dev-personnel/atelier5.jpg"
+                     class="img-responsive center-block" alt="Photo 5">
+              </div>
+              <div>
+                <img src="img/portfolio/dev-personnel/atelier6.jpg" alt="Photo 6">
+              </div>
+              <div>
+                <img src="img/portfolio/dev-personnel/atelier7.jpg" alt="Photo 7">
+              </div>
+              <div>
+                <img src="img/portfolio/dev-personnel/atelier8.jpg" alt="Photo 8">
+              </div>
+            </div>
+          </div> <!-- end modal-body -->
+          <div class="modal-footer">
+            <div class="text-center">
+              <button type="button"
+                      class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div> <!-- end modal-content -->
+      </div> <!-- end modal-dialog -->
+    </div> <!-- end modal -->
+    <div class="modal fade" id="modal-carousel-sport" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button"
+            class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h3>Sport</h3>
+          <div class="modal-body">
+            <div id="carousel-sport" class="owl-carousel">
+              <div>
+                <img src="img/portfolio/sport/atelier25.jpg"
+                     class="img-responsive center-block" alt="Photo 25">
+              </div>
+              <div>
+                <img src="img/portfolio/sport/atelier26.jpg" alt="Photo 26">
+              </div>
+              <div>
+                <img src="img/portfolio/sport/atelier27.jpg" alt="Photo 27">
+              </div>
+              <div>
+                <img src="img/portfolio/sport/atelier28.jpg" alt="Photo 28">
+              </div>
+            </div>
+          </div> <!-- end modal-body -->
+          <div class="modal-footer">
+            <div class="text-center">
+              <button type="button"
+                      class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div> <!-- end modal-content -->
+      </div> <!-- end modal-dialog -->
+    </div> <!-- end modal -->
+    <div class="modal fade" id="modal-carousel-informatique" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button"
+            class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h3>Informatique et numérique</h3>
+          <div class="modal-body">
+            <div id="carousel-informatique" class="owl-carousel">
+              <div>
+                <img src="img/portfolio/informatique/atelier21.jpg"
+                     class="img-responsive center-block" alt="Photo 21">
+              </div>
+              <div>
+                <img src="img/portfolio/informatique/atelier22.jpg" alt="Photo 22">
+              </div>
+              <div>
+                <img src="img/portfolio/informatique/atelier23.jpg" alt="Photo 23">
+              </div>
+              <div>
+                <img src="img/portfolio/informatique/atelier24.jpg" alt="Photo 24">
+              </div>
+            </div>
+          </div> <!-- end modal-body -->
+          <div class="modal-footer">
+            <div class="text-center">
+              <button type="button"
+                      class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div> <!-- end modal-content -->
+      </div> <!-- end modal-dialog -->
+    </div> <!-- end modal -->
+    <div class="modal fade" id="modal-carousel-environnement" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button"
+            class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h3>Environnement et développement durable</h3>
+          <div class="modal-body">
+            <div id="carousel-environnement" class="owl-carousel">
+              <div>
+                <img src="img/portfolio/environnement/atelier13.jpg"
+                     class="img-responsive center-block" alt="Photo 13">
+              </div>
+              <div>
+                <img src="img/portfolio/environnement/atelier14.jpg" alt="Photo 14">
+              </div>
+              <div>
+                <img src="img/portfolio/environnement/atelier15.jpg" alt="Photo 15">
+              </div>
+              <div>
+                <img src="img/portfolio/environnement/atelier16.jpg" alt="Photo 16">
+              </div>
+            </div>
+          </div> <!-- end modal-body -->
+          <div class="modal-footer">
+            <div class="text-center">
+              <button type="button"
+                      class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div> <!-- end modal-content -->
+      </div> <!-- end modal-dialog -->
+    </div> <!-- end modal -->
+    <div class="modal fade" id="modal-carousel-art-culture" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button"
+            class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h3>Art et culture</h3>
+          <div class="modal-body">
+            <div id="carousel-art-culture" class="owl-carousel">
+              <div>
+                <img src="img/portfolio/art-culture/atelier1.jpg"
+                     class="img-responsive center-block" alt="Photo 1">
+              </div>
+              <div>
+                <img src="img/portfolio/art-culture/atelier2.jpg" alt="Photo 2">
+              </div>
+              <div>
+                <img src="img/portfolio/art-culture/atelier3.jpg" alt="Photo 3">
+              </div>
+              <div>
+                <img src="img/portfolio/art-culture/atelier4.jpg" alt="Photo 4">
+              </div>
+            </div>
+          </div> <!-- end modal-body -->
+          <div class="modal-footer">
+            <div class="text-center">
+              <button type="button"
+                      class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div> <!-- end modal-content -->
+      </div> <!-- end modal-dialog -->
+    </div> <!-- end modal -->
+    <div class="modal fade" id="modal-carousel-diy" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button"
+            class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h3>Do it yourself</h3>
+          <div class="modal-body">
+            <div id="carousel-diy" class="owl-carousel">
+              <div>
+                <img src="img/portfolio/diy/atelier09.jpg"
+                     class="img-responsive center-block" alt="Photo 9">
+              </div>
+              <div>
+                <img src="img/portfolio/diy/atelier10.jpg" alt="Photo 10">
+              </div>
+              <div>
+                <img src="img/portfolio/diy/atelier11.jpg" alt="Photo 11">
+              </div>
+              <div>
+                <img src="img/portfolio/diy/atelier12.jpg" alt="Photo 12">
+              </div>
+            </div>
+          </div> <!-- end modal-body -->
+          <div class="modal-footer">
+            <div class="text-center">
+              <button type="button"
+                      class="btn btn-default" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div> <!-- end modal-content -->
+      </div> <!-- end modal-dialog -->
+    </div> <!-- end modal -->
     <!-- Places section -->
     <section id="tst-places" class="landing-page">
       <div class="container">

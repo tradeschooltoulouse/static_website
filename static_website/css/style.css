@@ -89,9 +89,11 @@ img.footer-logo {
 
 .video-container {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: 0;
     padding-bottom: 56.25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .video {
     position: absolute;

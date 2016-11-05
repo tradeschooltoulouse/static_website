@@ -84,7 +84,7 @@ img.footer-logo {
 }
 
 #values .img-wrapper img {
-  max-width: 80%;
+  max-width: 70%;
 }
 
 .video-container {
@@ -494,7 +494,9 @@ h4.media-heading {
 .yellow-bg { background-color: #ffad33 }
 .img-wrap .profile-img {
     position: relative;
-    margin-bottom: 20px;
+}
+.img-wrap .profile-img img {
+  max-width: 80%;
 }
 .profile-img .social {
     position: absolute;

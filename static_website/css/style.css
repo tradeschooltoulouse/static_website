@@ -738,7 +738,7 @@ ul.features li span.fa {
 
 /* Trainer trainee */
 #tst-trainer-trainees img {
-  max-height: 300px;
+  max-height: 200px;
 }
 
 @media (max-width: 992px) {
@@ -752,7 +752,6 @@ ul.features li span.fa {
 @media (min-width: 992px) {
    img.desktop {
      display: block;
-     margin-top: 100px;
    }
    img.mobile {
      display: none;

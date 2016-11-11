@@ -78,6 +78,10 @@ q {
 .clearfix { display: inline-block }
 * html .clearfix { height: 1% }
 .clearfix { display: block }
+.modal-content button.close {
+  padding: 15px;
+  font-size: 25px;
+}
 
 img.logo {
   max-width: 90px;

@@ -62,7 +62,6 @@ q {
 }
 .action {
   margin-top: 24px;
-  margin-bottom: 24px;
 }
 .highlight { color: #ffcc33 }
 .clearfix:after {
@@ -421,7 +420,7 @@ a.goto-btn { margin-right: 30px }
 }
 /* Intro Section */
 .landing-page {
-  padding-bottom: 2%;
+  padding-bottom: 4%;
     background-color: #996a99;
     color: #ffffff;
     text-align: center;

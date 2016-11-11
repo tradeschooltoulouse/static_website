@@ -63,6 +63,9 @@ q {
 .action {
   margin-top: 24px;
 }
+.bottom-marged {
+  margin-bottom: 40px;
+}
 .highlight { color: #ffcc33 }
 .clearfix:after {
     visibility: hidden;

@@ -60,6 +60,10 @@ figure {
 q {
   font-style: italic;
 }
+.action {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 .highlight { color: #ffcc33 }
 .clearfix:after {
     visibility: hidden;
@@ -417,8 +421,8 @@ a.goto-btn { margin-right: 30px }
 }
 /* Intro Section */
 .landing-page {
+  padding-bottom: 2%;
     background-color: #996a99;
-    padding: 5% 0;
     color: #ffffff;
     text-align: center;
 }

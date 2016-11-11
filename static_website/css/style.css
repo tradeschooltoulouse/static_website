@@ -445,6 +445,9 @@ a.goto-btn { margin-right: 30px }
     color: #ffffff;
     text-align: center;
 }
+#tst-support-us p {
+  text-align: justify;
+}
 .section-header h2 { text-transform: uppercase }
 .section-header h5 { letter-spacing: 1px }
 .fancy {

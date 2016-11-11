@@ -1210,6 +1210,14 @@ p.help-block.text-danger ul li {
 #tst-footer ul#foot-nav li:before {
     content: "\2192 \0020";
 }
+#tst-footer address {
+    display: inline-table;
+    text-align: left;
+}
+#tst-footer ul {
+    display: inline-table;
+    text-align: left;
+}
 ul.social li a i {
     font-size: 26px;
     background: transparent;

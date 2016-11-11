@@ -216,11 +216,11 @@ img.footer-logo {
 }
 /* Home Style */
 #tst-home {
-    background: url(../img/image_accueil_site_tst-small.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background: url(../img/image_accueil_site_tst-haut.png), url(../img/image_accueil_site_tst-texte.png), url(../img/image_accueil_site_tst-bas.png);
+    background-size: contain, contain, contain;
+    background-position: top, center, bottom;
+    background-attachment: fixed, fixed, fixed;
+    background-repeat: no-repeat, no-repeat, no-repeat;
     min-height: 100vh;
 }
 

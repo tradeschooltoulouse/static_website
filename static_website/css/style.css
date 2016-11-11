@@ -591,8 +591,13 @@ ul.social li a.fa:hover { background-color: #333333 }
 }
 
 #tst-workshop-categories .count-box {
-  min-height: 160px;
+  min-height: 210px;
   padding: 25px 0;
+}
+
+#tst-workshop-categories .count-box img {
+  max-width: 90px;
+  margin-bottom: 15px;
 }
 .count-box p {
   color: #000000;

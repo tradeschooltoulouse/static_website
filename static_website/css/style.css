@@ -52,7 +52,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #4e5055;
+    color: #676767;
 }
 figure {
   margin: 1rem;
@@ -124,11 +124,12 @@ img.footer-logo {
 }
 .btn-primary:hover {
     background-color: #ffcc33;
-    border-color: #000000;
+    border-color: #ffcc33;
+    color: #676767;
 }
 .btn-primary:active {
     background-color: #ffcc33;
-    border-color: #000000;
+    border-color: #ffcc33;
 }
 .btn-primary:focus {
     background-color: #ffcc33;
@@ -497,8 +498,6 @@ a.goto-btn { margin-right: 30px }
     margin: 0 10px;
     margin-left: 20px;
 }
-.process:hover i.fa,
-.service:hover i.fa { color: #333333 }
 h4.media-heading {
     margin-top: 0;
     margin-bottom: 5px;
@@ -622,16 +621,17 @@ ul.social li a.fa:hover { background-color: #333333 }
     opacity: 1;
 }*/
 .count-box:hover,
-.count-box:hover > i.fa { color: #ffffff }
 .count-box:hover {
     -webkit-backface-visibility: hidden;
-    background-color: #e5b112;
 }
 .counter i.fa {
     font-size: 40px;
     color: #FFCC33;
 }
 .count-box.last { border-right: 1px solid #d3d3d3 }
+.a-zone:hover {
+    background-color: #e5b112;
+}
 /* Portfolio / Works Sections */
 #tst-team {
     padding: 60px 0;
@@ -1125,9 +1125,9 @@ ul.metas li a { color: #e5b112 }
     margin-right: 20px;
     width: 82px;
     height: 80px;
-    transition: background-color 0.5s;
+    transition: color 0.5s;
 }
-.contact-detail:hover i.fa { background-color: #333333 }
+.contact-detail:hover i.fa { color: #676767 }
 form#contact-form { padding: 40px 0 }
 .contact form#contact-form {padding: 0}
 .form-control:focus {

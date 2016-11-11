@@ -766,7 +766,11 @@ ul.cat li a.active {
     color: inherit;
 }
 .nopadding { padding: 0 }
-.box a { margin: 2px }
+.box {
+  display: flex;
+  align-items: center;
+  min-height: 140px;
+}
 .box .hover-bg {
     position: relative;
     overflow: hidden;

@@ -46,6 +46,10 @@ a {
     color: #ffcc33;
     transition: all 0.5s;
 }
+.btn {
+  white-space: normal;
+  word-wrap: break-word;
+}
 .btn a {
   color: #ffffff;
 }

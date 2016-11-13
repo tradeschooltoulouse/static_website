@@ -220,12 +220,35 @@ img.footer-logo {
 }
 /* Home Style */
 #tst-home {
-    background: url(../img/image_accueil_site_tst-haut.png), url(../img/image_accueil_site_tst-milieu.png), url(../img/image_accueil_site_tst-bas.png);
-    background-size: auto 33%, auto 33%, auto 33%;
-    background-position: top, center, bottom;
-    background-attachment: fixed, fixed, fixed;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background: url(../img/image_accueil_site_tst-haut.png), url(../img/image_accueil_site_tst-bas.png);
+    background-size: auto 33%, auto 33%;
+    background-position: top, bottom;
+    background-attachment: fixed, fixed;
+    background-repeat: no-repeat, no-repeat;
     min-height: 100vh;
+}
+
+#tst-home #home-content {
+  position: absolute;
+  top: 33%;
+  bottom: 33%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#tst-home #home-content > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-height: 640px), (max-width: 450px) {
+  #tst-home #home-content img {
+    max-width: 80%;
+    max-height: 70px;
+  }
 }
 
 #tst-home blockquote {
@@ -242,7 +265,12 @@ img.footer-logo {
 }
 
 #tst-home blockquote p {
-font-size: 18px;
+font-size: 14px;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  #tst-home blockquote p {
+    font-size: 18px;
+  }
 }
 @media (min-width: 1200px) {
   #tst-home blockquote p {
@@ -252,8 +280,13 @@ font-size: 18px;
 
 #tst-home blockquote footer {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 12px;
   text-align: right;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  #tst-home blockquote footer {
+    font-size: 16px;
+  }
 }
 @media (min-width: 1200px) {
   #tst-home blockquote footer {
@@ -261,23 +294,12 @@ font-size: 18px;
   }
 }
 
-#tst-home .content-heading {
-  padding: 10px 0;
-  border-radius: 20px;
-}
-
 #home-button {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-#tst-home .overlay {
-    padding-top: 15%;
-    padding-bottom: 5%;
-    background-attachment: fixed;
-}
 #tst-home h1 { color: #ffad33 }
-.content-heading p.lead { margin-bottom: 80px }
 a.goto-btn {
     font-size: 18px;
     font-weight: 700;

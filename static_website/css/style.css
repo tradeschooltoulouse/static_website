@@ -256,7 +256,7 @@ font-size: 18px;
   text-align: right;
 }
 @media (min-width: 1200px) {
-  #tst-home blockquote p {
+  #tst-home blockquote footer {
     font-size: 20px;
   }
 }

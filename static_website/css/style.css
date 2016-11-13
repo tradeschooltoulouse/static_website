@@ -631,7 +631,7 @@ ul.social li a.fa:hover { background-color: #333333 }
   max-width: 70px;
   margin-bottom: 15px;
 }
-.count-box p {
+.count-box a {
   color: #000000;
 }
 /*.count-box .hover-bg{

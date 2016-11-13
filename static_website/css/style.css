@@ -806,6 +806,7 @@ ul.cat li a.active {
 .box {
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 140px;
 }
 .box .hover-bg {

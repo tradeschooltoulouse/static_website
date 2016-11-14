@@ -17,6 +17,9 @@ html {
     font-family: 'Lato', sans-serif;
     color: #6f6f6f;
 }
+body {
+  padding-right: 0 !important;
+}
 ::-webkit-scrollbar { width: 2px;  }/* for vertical scrollbars */
 ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); }
 ::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.5); }

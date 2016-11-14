@@ -812,6 +812,12 @@ ul.cat li a.active {
     color: inherit;
 }
 .nopadding { padding: 0 }
+#arrow-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
 .box {
   display: flex;
   align-items: center;

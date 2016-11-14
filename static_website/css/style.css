@@ -94,6 +94,9 @@ q {
   padding: 15px;
   font-size: 25px;
 }
+.modal-title {
+  text-align: center;
+}
 
 img.logo {
   max-width: 90px;

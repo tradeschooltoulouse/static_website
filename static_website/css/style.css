@@ -769,6 +769,10 @@ ul.features li span.fa {
 
 /* Trainer trainee */
 #tst-trainer-trainees img {
+  max-height: 300px;
+}
+
+#tst-trainer-trainees #arrows {
   max-height: 200px;
 }
 

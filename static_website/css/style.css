@@ -221,17 +221,22 @@ img.footer-logo {
   line-height: 35px;
   color: #ffffff;
   background-color: #ffcc33;
-  background: rgba(255, 204, 51, 0.29);
+  background: rgba(255, 204, 51, 0.50);
   text-align: center;
   border-radius: 3px;
   top: 50%;
   margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+  transition: all 0.5s;
 }
 .owl-prev {
   left: 0;
 }
 .owl-next {
   right: 0;
+}
+.owl-prev:hover,
+.owl-next:hover {
+  color: #676767;
 }
 /* Home Style */
 #tst-home {
@@ -828,6 +833,12 @@ ul.cat li a.active {
   align-items: center;
   justify-content: center;
   min-height: 300px;
+}
+.carousel-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
 }
 .box {
   display: flex;

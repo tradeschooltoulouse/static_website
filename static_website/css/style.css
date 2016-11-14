@@ -687,6 +687,11 @@ ul.social li a.fa:hover { background-color: #333333 }
     font-size: 40px;
     color: #FFCC33;
 }
+#download i.fa {
+    font-size: 40px;
+    color: #FFCC33;
+    margin-bottom: 0.5em;
+}
 .count-box.last { border-right: 1px solid #d3d3d3 }
 .a-zone:hover {
     background-color: #e5b112;

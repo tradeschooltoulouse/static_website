@@ -58,6 +58,14 @@ a:focus {
     text-decoration: underline;
     color: #676767;
 }
+.landing-page a:hover,
+.landing-page a:focus {
+    color: #ffcc33;
+}
+.landing-page a.btn-primary:hover,
+.landing-page a.btn-primary:focus {
+    color: #676767;
+}
 figure {
   margin: 1rem;
 }

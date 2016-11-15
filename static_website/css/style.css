@@ -60,6 +60,7 @@ a:hover,
 a:focus {
     text-decoration: underline;
     color: #676767;
+    outline: none; /*Djana*/
 }
 .landing-page a:hover,
 .landing-page a:focus {

@@ -34,7 +34,7 @@ h5 { font-size: 16px }
 p { font-size: 14px }
 @media (min-width: 1200px) {
   h5 { font-size: 17px }
-  p { font-size: 15px }
+  p { font-size: 1.2em }
 }
 
 h1 {

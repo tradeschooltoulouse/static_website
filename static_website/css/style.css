@@ -352,6 +352,10 @@ img.footer-logo {
   }
 }
 
+blockquote {
+  quotes: '«\00A0' '\00A0»';
+}
+
 #tst-home blockquote {
   max-width: 60%;
   margin-left: auto;

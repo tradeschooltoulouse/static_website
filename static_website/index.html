@@ -22,6 +22,7 @@
   <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
         rel="stylesheet" type="text/css">
   <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -1508,8 +1509,9 @@
                           <p class="help-block text-danger"></p>
                           <div id="success"></div>
                       </div>
-                      <button type="submit"
-                              class="btn btn-primary btn-lg">
+                      <div class="g-recaptcha" data-sitekey="6LdZbQwUAAAAAC16ogdgs5EGgq3dFKI6zQLz_d2v" data-callback="enableSubmit"></div>
+                      <button type="submit" id="submit-message-button"
+                              class="btn btn-primary btn-lg" disabled="disabled">
                         Envoyer
                       </button>
                   </form><!-- end form wrapper -->
@@ -2064,5 +2066,10 @@
   <script type="text/javascript" src="js/contact.js"></script>
   <!-- Custom javascript -->
   <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript">
+function enableSubmit(){
+  document.getElementById("submit-message-button").removeAttribute('disabled');
+}
+</script>
 </body>
 </html>

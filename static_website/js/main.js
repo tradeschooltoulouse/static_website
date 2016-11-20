@@ -90,6 +90,14 @@ function main() {
             }
         });
     }).triggerHandler('scroll');
+ 	// Back to top icon
+    //==========================================
+    $(document).ready(function() {
+        $('a.tab-opener').on('click', function() {
+            var tabId = $(this).attr('data-tab');
+            $('#FAQ .modal-body .nav-pills a#' + tabId).tab('show');
+        });
+    });
 
     /*====================================
     Portfolio Carousel

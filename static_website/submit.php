@@ -20,7 +20,7 @@ $email_address = $_POST['email'];
 $message = $_POST['message'];
 
 // Create the email and send the message
-$to = 'yann.vote@gmail.com';
+$to = 'tradeschooltoulouse@gmail.com';
 $email_subject = "[tradeschooltoulouse.fr]  Message de $name";
 $email_body = "Nom : $name\nVille : $city\nCourriel : $email_address\n\nMessage :\n$message";
 $headers = array('From' => "yann.vote@gmail.com",

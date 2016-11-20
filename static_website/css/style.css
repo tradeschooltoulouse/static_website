@@ -143,8 +143,8 @@ a:focus {
     color: #ffffff;
     outline: none; /*Djana*/
 }
-.landing-page a:hover,
-.landing-page a:focus {
+a:hover,
+a:focus {
     color: #ffcc33;
 }
 .landing-page a.btn-primary:hover,

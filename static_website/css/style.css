@@ -338,8 +338,6 @@ img.footer-logo {
   position: relative;
   top: 33%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 #tst-home #home-content > div {

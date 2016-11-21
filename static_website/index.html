@@ -2090,6 +2090,14 @@
   <script type="text/javascript" src="js/contact.js"></script>
   <!-- Custom javascript -->
   <script type="text/javascript" src="js/main.js"></script>
+  <script>
+$('#modal-motion-design').on('hidden.bs.modal', function(e){
+  var $if = $(e.delegateTarget).find('iframe');
+  var src = $if.attr("src");
+  $if.attr("src", '/blank.txt');
+  $if.attr("src", src);
+});
+  </script>
   <script type="text/javascript">
 function enableSubmit(){
   document.getElementById("submit-message-button").removeAttribute('disabled');

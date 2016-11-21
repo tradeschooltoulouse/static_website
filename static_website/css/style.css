@@ -358,6 +358,14 @@ blockquote {
   quotes: '«\00A0' '\00A0»';
 }
 
+.blockquote-reverse footer::after {
+  content: '';
+}
+
+.blockquote footer::before {
+  content: '';
+}
+
 #tst-home blockquote {
   max-width: 60%;
   margin-left: auto;

@@ -329,6 +329,10 @@ img.footer-logo {
     background-repeat: no-repeat, no-repeat;
 }
 
+#tst-home h1 {
+  display: none;
+}
+
 #tst-home #home-container {
   width: 100vw;
   height: 100vh;

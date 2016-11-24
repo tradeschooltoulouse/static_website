@@ -1437,6 +1437,11 @@ ul.social li a i:hover { border-color: #ffffff }
   text-align: justify;
 }
 
+#FAQ p.standout {
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+}
+
 #FAQ p.text-center {
   text-align: center;
 }

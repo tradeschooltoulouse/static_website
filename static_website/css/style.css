@@ -55,7 +55,7 @@ body {
 ::-webkit-scrollbar { width: 2px;  }/* for vertical scrollbars */
 ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); }
 ::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.5); }
-
+auto 100%
 h1,h2,h3,h4,h5 {
   font-family: 'oswald-regular', Arial, sans-serif;
   word-spacing: 0.1em;
@@ -64,8 +64,8 @@ h1,h2,h3,h4,h5 {
 h5 { font-size: 16px }
 p { font-size: 14px }
 @media (min-width: 1200px) {
-  h5 { font-size: 17px }
-  p { font-size: 15px }
+  h5 { font-size: 22px }
+  p { font-size: 20px }
 }
 
 h1 {
@@ -79,6 +79,10 @@ h2 {
 }
 a {
     color: #ffcc33;
+    transition: all 0.5s;
+}
+a.trainer {
+    color: #98559d;
     transition: all 0.5s;
 }
 .list-values{
@@ -130,13 +134,25 @@ ul.list-values li{
 .btn {
   white-space: normal;
   word-wrap: break-word;
+  border-radius: 40px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-family: 'oswald-regular', Arial, sans-serif;
 }
 .btn a {
   color: #ffffff;
 }
+a {
+  text-decoration: underline;
+}
+a.btn {
+  text-decoration: none;
+}
 a:hover,
 a:focus {
-    text-decoration: underline;
     color: #ffffff;
     outline: none; /*Djana*/
 }
@@ -160,7 +176,7 @@ q {
 .bottom-marged {
   margin-bottom: 40px;
 }
-.highlight { color: #ffcc33 }
+.highlight { color: #a04c98 }
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -319,11 +335,10 @@ img.footer-logo {
 }
 /* Home Style */
 #tst-home {
-    background: url(../img/image_accueil_site_tst-haut.png), url(../img/image_accueil_site_tst-bas.png);
-    background-size: auto 33%, auto 33%;
-    background-position: top, bottom;
-    background-attachment: fixed, fixed;
-    background-repeat: no-repeat, no-repeat;
+    background: url(../img/Accueil_site_TST_Dec2016.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #tst-home h1 {
@@ -336,8 +351,8 @@ img.footer-logo {
 }
 
 #tst-home #home-content {
-  position: relative;
-  top: 33%;
+  position: absolute;
+  bottom: 2%;
   width: 100%;
 }
 
@@ -368,20 +383,21 @@ blockquote {
 }
 
 #tst-home blockquote {
-  max-width: 60%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 0;
-  font-family: 'latobold_italic';
-  font-size: 22px;
+  font-family: 'latobold';
+  font-size: 24px;
   text-align: center;
-  color: #505050;
+  color: #ffffff;
   border: none;
 }
 
 #tst-home blockquote p {
 font-size: 14px;
+}
+#tst-home blockquote p q {
+  font-style: normal;
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   #tst-home blockquote p {
@@ -397,7 +413,8 @@ font-size: 14px;
 #tst-home blockquote footer {
   font-weight: normal;
   font-size: 12px;
-  text-align: right;
+  text-align: center;
+  color: #ffffff;
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   #tst-home blockquote footer {
@@ -689,6 +706,14 @@ ul.social li a.fa {
 }
 ul.social li a.fa:hover { background-color: #333333 }
 /* Skills Progress Bar */
+#tst-concept-details  .counter .count-box .count {
+  font-weight: bold;
+  font-size: 25px;
+}
+#tst-concept-details  .counter .count-box p {
+  text-transform: uppercase;
+  font-size: 15px;
+}
 .progress {
     height: 12px;
     margin-bottom: 20px;
@@ -723,7 +748,10 @@ ul.social li a.fa:hover { background-color: #333333 }
 }
 /* Counter */
 .facts { padding: 0 }
-.facts .count-box { position: relative }
+.facts .count-box {
+  position: relative;
+  min-height: 270px;
+}
 .count-box {
     -webkit-backface-visibility: hidden;
     border-left: 1px solid #d3d3d3;
@@ -739,7 +767,7 @@ ul.social li a.fa:hover { background-color: #333333 }
 }
 
 #tst-workshop-categories .count-box {
-  min-height: 190px;
+  min-height: 200px;
   padding: 25px 0;
 }
 

@@ -336,9 +336,8 @@ img.footer-logo {
 /* Home Style */
 #tst-home {
     background: url(../img/Accueil_site_TST_Dec2016.png);
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 #tst-home h1 {

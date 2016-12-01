@@ -355,13 +355,6 @@ img.footer-logo {
   width: 100%;
 }
 
-#tst-home #home-content > div {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
-
-
 @media (max-height: 640px), (max-width: 450px) {
   #tst-home #home-content img {
     max-width: 80%;

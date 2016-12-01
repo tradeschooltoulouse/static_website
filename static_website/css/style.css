@@ -132,16 +132,23 @@ ul.list-values li{
   border-radius: 40px;
   padding-top: 12px;
   padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-transform: uppercase;
   font-family: 'oswald-regular', Arial, sans-serif;
+  letter-spacing: 0.02em;
 }
 .btn a {
   color: #ffffff;
 }
 a {
   text-decoration: underline;
+}
+#tst-menu a {
+  text-decoration: none;
+}
+ul.nav a {
+  text-decoration: none;
 }
 a.btn {
   text-decoration: none;

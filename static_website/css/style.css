@@ -92,26 +92,20 @@ ul.list-values{
   list-style-type: none;
   padding-left: 0;
 }
-ul.list-values li:nth-child(1) i{
-  color: #57C1D8;
+.blue {
+  color: #87C8B1;
 }
-ul.list-values li:nth-child(2) i{
-  color: #F8B238;
+.yellow {
+  color: #FBB738;
 }
-ul.list-values li:nth-child(3) i{
-  color: #C977AE;
+.purple {
+  color: #9853A1;
 }
-ul.list-values li:nth-child(4) i{
-  color: #FFCC36;
+.red {
+  color: #EF3E6C;
 }
-ul.list-values li:nth-child(5) i{
-  color: #7ABCE2;
-}
-ul.list-values li:nth-child(6) i{
-  color: #A74894;
-}
-ul.list-values li:nth-child(7) i{
-  color: #76C5B0;
+.green {
+  color: #C0C71E;
 }
 
 .contact-detail [class*=" fa-"]:before, .count-box [class*=" fa-"]:before {
@@ -124,6 +118,7 @@ ul.list-values li:nth-child(7) i{
 }
 
 ul.list-values li{
+  margin: 8px 0;
   font-size: 2.1em;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -646,7 +641,6 @@ a.goto-btn { margin-right: 30px }
 .service i.fa {
     text-align: center;
     font-size: 2.7em;
-    color: #ffcc23;
     width: 50px;
     height: 50px;
     transition: color 0.5s;

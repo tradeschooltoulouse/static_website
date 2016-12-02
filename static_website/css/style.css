@@ -1006,7 +1006,6 @@ ul.cat li a.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60vh;
 }
 .box {
   display: flex;

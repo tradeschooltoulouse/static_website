@@ -324,13 +324,12 @@ img.footer-logo {
 .owl-prev,
 .owl-next {
   position: absolute;
-  width: 40px;
+  width: 30px;
   height: 40px;
   font-size: 22px;
   line-height: 35px;
   color: #ffffff;
   background-color: #ffcc33;
-  background: rgba(255, 204, 51, 0.50);
   text-align: center;
   border-radius: 3px;
   top: 50%;

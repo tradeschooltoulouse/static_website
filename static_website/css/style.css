@@ -931,6 +931,10 @@ ul.features li span.fa {
   max-height: 300px;
 }
 
+#tst-trainer-trainees p {
+  font-size: 16px;
+}
+
 #tst-trainer-trainees #arrows {
   max-height: 200px;
 }

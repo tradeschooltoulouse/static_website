@@ -212,6 +212,10 @@ img.logo {
   margin-top: 4px;
   margin-bottom: 8px;
 }
+img.partner {
+  max-width: 150px;
+  max-height: 95px;
+}
 
 img.footer-logo {
   max-height: 26px;

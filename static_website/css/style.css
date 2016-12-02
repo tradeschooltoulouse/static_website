@@ -781,7 +781,8 @@ ul.social li a.fa:hover { background-color: #333333 }
 }
 .count-box a {
   color: #000000;
-  text-decoration: underline;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 /*.count-box .hover-bg{
   position: absolute;

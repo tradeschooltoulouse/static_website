@@ -157,8 +157,8 @@ ul.nav a {
 a.btn {
   text-decoration: none;
 }
-a:hover,
-a:focus {
+a.go-top:hover,
+a.go-top:focus {
     color: #ffffff;
     outline: none; /*Djana*/
 }

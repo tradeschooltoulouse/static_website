@@ -67,6 +67,10 @@ p { font-size: 14px }
   h5 { font-size: 22px }
   p { font-size: 20px }
 }
+ul { font-size: 14px }
+@media (min-width: 1200px) {
+  ul { font-size: 20px }
+}
 
 h1 {
     font-weight: 700;
@@ -196,6 +200,10 @@ q {
 }
 .modal-title {
   text-align: center;
+  text-transform: uppercase;
+}
+.modal-title h2 {
+  font-size: 20px;
 }
 
 img.logo {
@@ -1423,6 +1431,9 @@ p.help-block.text-danger ul li {
 #tst-footer p {
     font-size: 13px;
 }
+#tst-footer ul {
+    font-size: 13px;
+}
 #tst-footer ul#foot-nav {
   list-style: none;
   padding: 0;
@@ -1453,11 +1464,11 @@ ul.social li a i:hover { border-color: #ffffff }
 
 /* FAQ */
 
-#FAQ h3 {
+#FAQ h2 {
   text-align: center;
 }
 
-#FAQ h4 {
+#FAQ h3 {
   text-align: center;
 }
 
@@ -1486,6 +1497,22 @@ ul.social li a i:hover { border-color: #ffffff }
 #FAQ .modal-footer {
   padding: 15px;
   padding-right: 40px;
+}
+
+/* Legals */
+
+.modal h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.modal p {
+  font-size: 14px;
+}
+.modal ul {
+  font-size: 14px;
+}
+.modal address {
+  font-size: 14px;
 }
 
 /* Blog Page */

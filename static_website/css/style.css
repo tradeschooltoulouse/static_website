@@ -961,12 +961,12 @@ ul.features li span.fa {
    }
 }
 
-#tst-trainer-trainees #trainer.btn {
+#tst-trainer-trainees #img-trainer.btn {
   margin-top: -20px;
   border: 4px solid;
   background-color: #ffffff;
 }
-#tst-trainer-trainees #trainee.btn {
+#tst-trainer-trainees #img-trainee.btn {
   margin-top: -20px;
   border: 4px solid;
   background-color: #ffffff;

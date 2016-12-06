@@ -1,5 +1,5 @@
 <?php
-require_once "Mail.php";
+require_once "class.phpmailer.php";
 
 $settings = parse_ini_file('config/config.ini');
 
@@ -23,21 +23,24 @@ $message = $_POST['message'];
 $to = 'tradeschooltoulouse@gmail.com';
 $email_subject = "[tradeschooltoulouse.fr]  Message de $name";
 $email_body = "Nom : $name\nVille : $city\nCourriel : $email_address\n\nMessage :\n$message";
-$headers = array('From' => "yann.vote@gmail.com",
-  'Reply-To' => $email_address,
-  'Subject' => $email_subject,
-  'To' => $to);
-$smtp = Mail::factory('smtp',
-  array ('host' => $settings['smtp_host'],
-     'port' => $settings['smtp_port'],
-     'auth' => true,
-     'username' => $settings['smtp_username'],
-     'password' => $settings['smtp_password']));
-$mail = $smtp->send($to,$headers,$email_body);
-if (PEAR::isError($mail)) {
-  error_log($mail->getMessage());
-  return false;
-} else {
+$mail = new PHPMailer();
+$mail->IsSMTP();
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = 'ssl';
+$mail->SMTPDebug = 1;
+$mail->Host = $settings['smtp_host'];
+$mail->Port = $settings['smtp_port'];
+$mail->Username = $settings['smtp_username'];
+$mail->Password = $settings['smtp_password'];
+$mail->SetFrom('contact@tradeschooltoulouse.fr');
+$mail->Subject = $email_subject;
+$mail->AddAddress($to);
+$mail->AddReplyTo($email_address);
+$mail->MsgHTML($email_body);
+if ($mail->Send()) {
   return true;
+} else {
+  error_log($mail->ErrorInfo);
+  return false;
 }
 ?>
